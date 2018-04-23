@@ -15,7 +15,7 @@ if __name__ == "__main__":
     sheet = wbk.add_sheet("wordCount")  # Excel单元格名字  
     word_lst = []
     key_list = []
-    for line in open('1906.txt'):  # .txt是需要分词统计的文档
+    for line in open('YourDoc.txt'):  # .txt是需要分词统计的文档
 
         item = line.strip('\n\r').split('\t')  # 制表格切分  
     print item
